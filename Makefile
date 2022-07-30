@@ -12,7 +12,7 @@ DEPFLAGS = -Wp,-MMD,$(@D)/.$(@F).d,-MT,$@
 override CFLAGS := $(CHECKFLAGS) $(AM_CFLAGS) $(CFLAGS)
 
 INSTALL = install
-prefix ?= /usr/local
+prefix ?= /usr
 bindir = $(prefix)/bin
 LIBS=
 RESTORE_LIBS=
