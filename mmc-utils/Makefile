@@ -1,12 +1,9 @@
 CC ?= gcc
 AM_CFLAGS = -D_FILE_OFFSET_BITS=64 -D_FORTIFY_SOURCE=2
-CFLAGS ?= -g -O2
+CFLAGS ?= -g -O2  -Wall -Werror -Wuninitialized -Wundef
 objects = \
 	mmc.o \
-	mmc_cmds.o \
-	lsmmc.o \
-	3rdparty/hmac_sha/hmac_sha2.o \
-	3rdparty/hmac_sha/sha2.o
+	mmc_cmds.o
 
 CHECKFLAGS = -Wall -Werror -Wuninitialized -Wundef
 

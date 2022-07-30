@@ -19,7 +19,6 @@
 
 /* mmc_cmds.c */
 
-int do_read_extcsd(int nargs, char **argv);
 int do_write_extcsd(int nargs, char **argv);
 int do_writeprotect_boot_get(int nargs, char **argv);
 int do_writeprotect_boot_set(int nargs, char **argv);
