@@ -20,7 +20,7 @@ bindir = $(prefix)/bin
 LIBS=
 RESTORE_LIBS=
 
-progs = mmc
+progs = transcend-sdcard-health
 
 # make C=1 to enable sparse
 ifdef C
@@ -35,7 +35,7 @@ ifdef C
 endif
 	$(CC) $(CPPFLAGS) $(CFLAGS) $(DEPFLAGS) -c $< -o $@
 
-mmc: $(objects)
+transcend-sdcard-health: $(objects)
 	$(CC) $(CFLAGS) -o $@ $(objects) $(LDFLAGS) $(LIBS)
 
 manpages:
