@@ -1,3 +1,7 @@
 .*.o.d
 *.o
 /transcend-sdcard-health
+debian/.debhelper
+debian/transcend-sdcard-health
+debian/*.substvars
+debian/*.log

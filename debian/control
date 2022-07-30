@@ -1,0 +1,11 @@
+Source: transcend-sdcard-health
+Maintainer: Evgeny Boger <boger@wirenboard.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: transcend-sdcard-health
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: read S.M.A.R.T. info from Transcend SD card
