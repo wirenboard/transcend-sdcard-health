@@ -1,4 +1,4 @@
-# Monitor SD card health and status using Raspberry Pi
+# Monitor Transcend SD card health and status
 Get S.M.A.R.T data for Transcend SD card.
 
 -------------------------
